@@ -1,0 +1,22 @@
+# HTML
+# Archive your static HTML project and save it with the build record.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  - develop/*
+  - main
+  - master
+
+name: '$(date:yyyyMMdd)$(rev:.r)'
+
+pool:
+  name: Default  # name of the pool to run this job in
+
+
+steps:
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(build.sourcesDirectory)'
+    includeRootFolder: false
+- task: PublishBuildArtifacts@1
