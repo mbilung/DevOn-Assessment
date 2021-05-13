@@ -30,7 +30,7 @@ Nevertheless, I have created the same project and build pipeline using <a href="
 
 <p3>
 <ol>
-  <li>Clone the repoistory in your local and create a branch feature/{sample-branch-name}</li>
+  <li>Clone the repoistory in your local and create a branch feature/{sample-branch-name}, please adhere to the naming convention of the branch elese the pipeline won't trigger</li>
   <li>Edit the required tags in the file index.html under the dist folder and push the changes to github. github actions gets triggered and you can view your changes navigating to the <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure website</a></li>
   <li>Simultaneously <a href="https://dev.azure.com/etherpages/WebUI/_build?definitionId=2">Azure Devops Pipeline</a> will also get triggered</li>
 </p3>
