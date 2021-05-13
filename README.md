@@ -19,7 +19,6 @@ My rationale to use github actions instead of azure devops is as follows:
 <ol>
   <li>Microsoft doesn't provides a free build agent without a request</li>
   <li>To Showcase the solution using github actions as an alternate to azure devops</li>
-  <li>The reviewer can quickly edit the code in this repository and see the changes navigating to this <a href="https://orange-river-0f4472903.azurestaticapps.net/">link</a></li>
 </ol>
 
 Nevertheless, I have created the same project and build pipeline using <a href="https://dev.azure.com/etherpages/WebUI/_git/DevOn-Task1">Azure Devops</a> as well
