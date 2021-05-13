@@ -21,7 +21,7 @@ My rationale to use github actions instead of azure devops is as follows:
   <li>To Showcase the solution using github actions as an alternate to azure devops</li>
 </ol>
 
-Nevertheless, I have created the same project and build pipeline using <a href="https://dev.azure.com/etherpages/WebUI/_git/DevOn-Task1">Azure Devops</a> as well
+Nevertheless, I have created the same project and build pipeline using <a href="https://dev.azure.com/etherpages/WebUI/_build?definitionId=2">Azure Devops</a> as well
 
 </p2>
 
