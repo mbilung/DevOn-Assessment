@@ -12,7 +12,7 @@ and execute the pipeline automatically when some code changes in GitHub.</p1>
 
 <h2>My Solution:</h2>
 
-<p2>I have used github and github actions to demonstrate the CI through a static website hosted on <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure</a>. This static website is created using basic html and css and is hosted on azure static webapp.
+<p2>I have used github and github actions to demonstrate the build process deploying a static website hosted on <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure</a>. This static website is created using basic html and css and is hosted on azure static webapp.
 
 My rationale to use github actions instead of azure devops is as follows:
 
