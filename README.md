@@ -28,4 +28,9 @@ Nevertheless, I have created the same project and build pipeline using <a href="
 
 <h2>Usage:</h2>
 
-Edit the file index.html under the dist folder, the pipeline will get triggered and you can view your changes navigating to the <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure website</a>
+<p3>
+<ol>
+  <li>Create a branch feature/<sample-branch-name></li>
+  <li>Edit the file index.html under the dist folder, the github actions will get triggered and you can view your changes navigating to the <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure website</a></li>
+  <li>Simultaneously <a href="https://dev.azure.com/etherpages/WebUI/_build?definitionId=2">Azure Devops Pipeline</a> will also get triggered</li>
+</p3>
