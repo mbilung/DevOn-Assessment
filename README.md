@@ -17,8 +17,8 @@ and execute the pipeline automatically when some code changes in GitHub.</p1>
 My rationale to use github actions instead of azure devops is as follows:
 
 <ol>
-  <li>Microsoft doesn't provides a free build agent without a request</li>
-  <li>To Showcase the solution using github actions as an alternate to azure devops</li>
+  <li>Microsoft doesn't provides a free build agent without a request (I have raised a rquest with Microsoft,not certain when will I get one)</li>
+  <li>To Showcase the solution using github actions as an alternative to azure devops pieplines</li>
 </ol>
 
 Nevertheless, I have created the same project and build pipeline using <a href="https://dev.azure.com/etherpages/WebUI/_build?definitionId=2">Azure Devops</a> as well
