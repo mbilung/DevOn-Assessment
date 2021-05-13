@@ -28,4 +28,4 @@ Nevertheless, I have created the same project and build pipeline using <a href="
 
 <h2>Usage:</h2>
 
-Edit the code under the dist folder, the pipeline will get triggered and you can view your changes navigating to the <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure website</a>
+Edit the file index.html under the dist folder, the pipeline will get triggered and you can view your changes navigating to the <a href="https://orange-river-0f4472903.azurestaticapps.net/">azure website</a>
