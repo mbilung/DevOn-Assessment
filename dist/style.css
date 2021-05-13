@@ -1,0 +1,32 @@
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.img-responsive.img-center {
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: auto;
+  }
+
+  .paraMargin {
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+
+  }
+
+  .unList {
+    margin-left: 200px;
+
+  }
+  .image-border {
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+  }
