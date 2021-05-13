@@ -4,6 +4,12 @@
 # https://aka.ms/yaml
 
 trigger:
+  - feature/*
+  - main
+  - master
+name: '$(date:yyyyMMdd)$(rev:.r)'
+
+trigger:
 - main
 
 pool:
