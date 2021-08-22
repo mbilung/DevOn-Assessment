@@ -165,22 +165,29 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
 	
-.footer p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  color: #082603;
-  font-size: 150%;
-  font-family: 'Baskerville Old Face'
+<style>
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: grey;
+   text-align: center;
 }
-<div class="container body-content">
+</style>
+</head>
+<body>
 
-  <div class="footer">
-    <p>If I now change my past, I will change who I am right now. — The Stranger, DarkS01E10</p>
-  </div>
+<!--Footer-->
+<footer style="height:auto">
+  <h1><If I now change my past, I will change who I am right now. — The Stranger, DarkS01E10</h1>
+</footer>
+<h2>Fixed/Sticky Footer Example</h2>
+<p>The footer is placed at the bottom of the page.</p>
 
+<div class="footer">
+  <p>If I now change my past, I will change who I am right now. — The Stranger, DarkS01E10</p>
 </div>
 	
 </body>
